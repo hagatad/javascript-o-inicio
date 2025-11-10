@@ -190,11 +190,10 @@ function mensagem (){
     console.log (" :) ")
 }
 mensagem()
+mensagem()
 
 function conta (horas, sal_hora){
     console.log (horas * sal_hora)
 }
 
 conta (140,75)
-
-
