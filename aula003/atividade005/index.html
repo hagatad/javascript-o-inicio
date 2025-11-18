@@ -22,12 +22,12 @@
 
         <form>
             <input type="search" class="input_search" placeholder="Número"
-            required>
+            required onkeyup="fnPesquisarNumero()">
         </form>
 
         <div class="buttons">
-            <button class="button btn-prev">&lt; Anterior</button>
-            <button class="button btn-next">Próximo &gt;</button>
+            <button class="button btn-prev" onclick="fnAnterior()">&lt; Anterior</button>
+            <button class="button btn-next" onclick="fnProximo()">Próximo &gt;</button>
         </div>
         
 
